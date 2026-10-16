@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Nuxt
+.nuxt
+.output
+.data
+dist
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS / Editor
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# Drizzle
+drizzle/meta/_journal.json.bak
